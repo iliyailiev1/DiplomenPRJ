@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site For Shoes</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo">SiteForShoes</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#products">products</a>
+            <a href="#featured">featured</a>
+            <a href="#review">review</a>
+        </nav>
+
+        <div class="icons">
+
+            <a href="/products.html" class="fas fa-shopping-cart" id="cart-icon"></a>
+            <a href="/register.html" id="userlink" class="fas fa-user"></a>
+            <a href="#" id="signoutlnk" class="fas fa-share"></a>
+
+        </div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="slide-container active">
+            <div class="slide">
+                <div class="content">
+                    <span>nike red shoes</span>
+                    <h3>nike AirForce</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maiores et eos eaque veritatis aut laboriosam earum dolorem iste atque.</p>
+                    
+                </div>
+                <div class="image">
+                    <img src="../assets/img/shoe1.png" class="shoe" alt=" ">
+                    <img src="../assets/img/download (1).png" class="text" alt=" ">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>nike blue shoes</span>
+                    <h3>nike AirForce</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maiores et eos eaque veritatis aut laboriosam earum dolorem iste atque.</p>
+                    
+                </div>
+                <div class="image ">
+                    <img src="../assets/img/shoe2.png" class="shoe" alt=" ">
+                    <img src="../assets/img/download (2).png" class="text" alt=" ">
+                </div>
+            </div>
+        </div>
+
+        <div class="slide-container">
+            <div class="slide">
+                <div class="content">
+                    <span>nike yellow shoes</span>
+                    <h3>nike AirForce</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maiores et eos eaque veritatis aut laboriosam earum dolorem iste atque.</p>
+                
+                </div>
+                <div class="image">
+                    <img src="../assets/img/shoe3.png" class="shoe" alt=" ">
+                    <img src="../assets/img/download (3).png" class="text" alt=" ">
+                </div>
+            </div>
+        </div>
+
+        <div id="prev" class="fas fa-chevron-left" onclick="prev()"></div>
+        <div id="next" class="fas fa-chevron-right" onclick="next()"></div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- service section starts  -->
+
+    <section class="service">
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-shipping-fast"></i>
+                <h3>fast delivery</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, fugit.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-undo"></i>
+                <h3>10 days replacements</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, fugit.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-headset "></i>
+                <h3>24 x 7 support</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum, fugit.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+    <!-- products section starts  -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> latest <span>products</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="../assets/img/obuvka1.png" alt=" " id="item1" class="product-img">
+                <div class="content">
+                    <h3 class="product-title">nike air max plus</h3>
+                    <div> <span  class="price">$199.99</span> <span class="oldPrice">$279.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="../assets/img/obuvka2.png" alt=" " class="product-img">
+                <div class="content">
+                    <h3 class="product-title">nike air max 90</h3>
+                    <div> <span  class="price">$109.99</span> <span class="oldPrice">$149.99</span></div>
+                    <div class="stars ">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class=" fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="../assets/img/obuvka3.png" alt=" " class="product-img">
+                <div class="content">
+                    <h3 class="product-title">nike air force 1</h3>
+                    <div> <span  class="price">$119.99</span> <span class="oldPrice">$169.99</span></div>
+                    <div class="stars ">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                   
+                </div>
+            </div>
+
+            <div class="box ">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="../assets/img/obuvka4.png" alt=" " class="product-img">
+                <div class="content">
+                    <h3 class="product-title">nike revolution 6</h3>
+                    <div> <span  class="price">$59.99</span> <span class="oldPrice">$99.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="../assets/img/obuvka5.png" class="shoe1" alt=" " class="product-img">
+                <div class="content">
+                    <h3 class="product-title">nike revolution 6</h3>
+                    <div> <span  class="price">$59.99</span> <span class="oldPrice">$99.99</span></div>
+                    <div class="stars ">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-share"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <img src="../assets/img/obuvka6.png" alt=" " class="product-img">
+                <div class="content">
+                    <h3 class="product-title">nike shoes</h3>
+                    <div> <span  class="price">$69.99</span> <span class="oldPrice">$119.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- products section ends -->
+
+    <!-- featured section starts  -->
+
+    <section class="featured" id="featured">
+
+        <h1 class="heading"> <span>featured</span> products </h1>
+
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="../assets/img/beliairforce1.jpg" class="featured-image-1" alt=" ">
+                    <img src="../assets/img/beliairforce2.jpg" class="featured-image-1" alt=" ">
+                    <img src="../assets/img/beliairforce3.jpg" class="featured-image-1" alt=" ">
+                    <img src="../assets/img/beliairforce4.jpg" class="featured-image-1" alt=" ">
+                </div>
+                <div class="big-image">
+                    <img src="../assets/img/beliairforce1.jpg " class="big-image-1 " alt=" " class="product-img">
+                </div>
+            </div>
+            <div class="content">
+                <h3 class="product-title">new nike Air force 1</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure libero quis fuga commodi. Autem.</p>
+                <div> <span  class="price">$89.99</span> <span class="oldPrice">$129.99</span></div>
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="../assets/img/1.jpg" class="featured-image-2" alt=" ">
+                    <img src="../assets/img/2.jpg" class="featured-image-2" alt=" ">
+                    <img src="../assets/img/3.jpg" class="featured-image-2" alt=" ">
+                    <img src="../assetsimg/4.jpg" class="featured-image-2" alt=" ">
+                </div>
+                <div class="big-image">
+                    <img src="../assets/img/1.jpg" class="big-image-2" alt=" " class="product-img">
+                </div>
+            </div>
+            <div class="content">
+                <h3 class="product-title">new nike Air force 1</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure libero quis fuga commodi. Autem.</p>
+                <div> <span  class="price">$79.99</span> <span class="oldPrice">$149.99</span></div>
+                
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image-container">
+                <div class="small-image">
+                    <img src="../assets/img/4airforce1.jpg" class="featured-image-3" alt=" ">
+                    <img src="../assets/img/4airforce2.jpg" class="featured-image-3" alt=" ">
+                    <img src="../assets/img/4airforce3.jpg" class="featured-image-3" alt=" ">
+                    <img src="../assets/img/4airforce4.jpg" class="featured-image-3" alt=" ">
+                </div>
+                <div class="big-image">
+                    <img src="../assets/img/4airforce1.jpg" class="big-image-3" alt=" " class="product-img">
+                </div>
+            </div>
+            <div class="content">
+                <h3 class="product-title">new nike Air force 1</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta facilis praesentium odit voluptas illum iure libero quis fuga commodi. Autem.</p>
+                <div> <span  class="price">$99.99</span> <span class="oldPrice">$189.99</span></div>
+                
+            </div>
+        </div>
+
+    </section>
+
+    <!-- featured section ends -->
+
+    <!-- review section starts  -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> customer's <span>review</span> </h1>
+
+        <div class="box-container">
+
+            <div class="box ">
+                <img src="../assets/img/profilpic1.jpeg" alt=" ">
+                <h3>john deo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos eum. Laborum aut a consequatur ducimus, molestias possimus quisquam rerum temporibus ipsum voluptate accusamus, unde ab asperiores? Exercitationem, unde rem.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../assets/img/profilpuc2.jpeg" alt=" ">
+                <h3>john deo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos eum. Laborum aut a consequatur ducimus, molestias possimus quisquam rerum temporibus ipsum voluptate accusamus, unde ab asperiores? Exercitationem, unde rem.</p>
+                <div class="stars ">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="../assets/img/profilpic3.jpeg" alt=" ">
+                <h3>john deo</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat, quos eum. Laborum aut a consequatur ducimus, molestias possimus quisquam rerum temporibus ipsum voluptate accusamus, unde ab asperiores? Exercitationem, unde rem.</p>
+                <div class="stars ">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>our stores</h3>
+                <a href="#">india</a>
+                <a href="#">USA</a>
+                <a href="#">japan</a>
+                <a href="#">paris</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">products</a>
+                <a href="#">featured</a>
+                <a href="#">review</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#">my account</a>
+                <a href="#">my favorite</a>
+                <a href="#">my orders</a>
+                <a href="#">newsletter</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+    </section>
+<h3 id="hh"></h3>
+<script>
+
+let userlink = document.getElementById('userlink');
+let signoutlink = document.getElementById('signoutlink');
+let header = document.getElementById('hh');
+var currentUse = null;
+
+function getUsername(){
+    let keepLoggedIn = localStorage.getItem('keepLoggedIn');
+
+    if(keepLoggedIn == 'yes'){
+        currentUser = JSON.parse(localStorage.getItem('token'));
+    }
+    else{
+        currentUser = JSON.parse(sessionStorage.getItem('token'));
+    }
+}
+
+function Signout(){
+    sessionStorage.removeItem('user');
+    localStorage.removeItem('user');
+    localStorage.removeItem('keepLoggedIn');
+    window.location = '/';
+}
+
+window.onload = function(){
+    getUsername();
+    if(currentUser == null){
+        userlink.innerText = ' ';
+        userlink.classList.replace('nav-link','btn');
+        userlink.classList.add('btn-primary');
+        userlink.href = '/register.html';
+
+        signoutlink.innerText = 'Login';
+        signoutlink.classList.replace('nav-link','btn');
+        signoutlink.classList.add('btn-success');
+        signoutlink.href = '/login.html';
+
+    }else{
+        userlink.innerText = currentUser.username;
+        haeder.innerText = 'welcome' + currentUser.fullname
+        userlink.classList.replace('btn', 'nav-link');
+        userlink.classList.add('btn-primary');
+        userlink.href = '#';
+
+        signoutlink.innerText = 'Sign Out';
+        signoutlink.classList.replace('btn', 'nav-link');
+        signoutlink.classList.add('btn-success');
+        signoutlink.href = 'javascript:Signout()';
+    }
+}
+
+
+</script>
+    <!-- custom js file link  -->
+    <script src="../assets/js/js.js"></script>
+    
+</body>
+
+</html>
